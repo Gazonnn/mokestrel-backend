@@ -1,9 +1,8 @@
-Flask==2.1.2
-ultralytics>=8.0.0,<8.1.0  # Specify a compatible range if possible
-torch>=1.13.0  # Or use the latest compatible version with your environment
-lime==0.2.0.1
-scikit-image==0.18.3
-numpy>=1.19.5
-Pillow>=8.3.1
-matplotlib>=3.4.2
-pyngrok==5.1.0  # If still needed, otherwise remove
+Flask>=2.0.0,<3.0.0
+Werkzeug>=2.0.0,<3.0.0
+ultralytics
+torch
+numpy
+Pillow
+scikit-image
+lime
