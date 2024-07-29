@@ -1,0 +1,8 @@
+Flask==2.1.2
+ultralytics==8.0.0
+torch==1.12.0
+pillow==9.1.1
+numpy==1.21.0
+lime==0.2.0.1
+scikit-image==0.19.2
+pyyaml==5.4.1
