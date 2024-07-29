@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 17
+names: ['Blue-Tailed-Day-Gecko', 'Echo-Parakeet', 'Mascarene-Paradise-Flycatcher', 'Mauritius-Black-Bulbul', 'Mauritius-Cuckooshrike', 'Mauritius-Flying-Fox', 'Mauritius-Fody', 'Mauritius-Grey-White-Eye', 'Mauritius-Kestrel', 'Mauritius-Lowland-Forest-Day-Gecko', 'Mauritius-Olive-White-Eye', 'Mauritius-Snake-eyed-Skink', 'Ornate-Day-Gecko', 'Pink-Pigeon', 'Round-Island-Day-Gecko', 'Round-Island-Keel-Scaled-Boa', 'Round-Island-Skink-Telfair-s-Skink-']
+
+roboflow:
+  workspace: gazon-5w4dr
+  project: mauritian-fauna-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gazon-5w4dr/mauritian-fauna-detection/dataset/1
